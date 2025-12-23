@@ -2,7 +2,7 @@
 int main()
 {
     char str[]="gaur";
-    char* ptr=str;//yaha pr jo str ka data type hai wahi same data type pointer ka bhi hona chahiye
+    char* ptr=str;//yaha pr jo str ka jo  datatype hai wahi same data type pointer ka bhi hona chahiye
     // printf("%p\n",str);//array name itself a base address remember it !!!!
     // printf("%p\n",&str[0]);
     // printf("%p\n",ptr);

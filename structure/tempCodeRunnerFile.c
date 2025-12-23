@@ -1,6 +1,4 @@
-struct d
-    // { // data type is struct dob
-    //     int day;
-    //     int month;
-    //     int year;
-    // };
+er name :");
+    // scanf("%[^\n]",ptr->name);
+    // printf("Enter id :");
+    // scanf("%d",

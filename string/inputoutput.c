@@ -9,6 +9,5 @@ int main()
     printf("%s",s);
     int n=strlen(s);
     printf("The length of the string is :%d",n);
-
     return 0;
 }

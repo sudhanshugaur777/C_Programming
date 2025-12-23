@@ -7,7 +7,7 @@ struct student
     char character;
     char name[20];
 }alpha,beta,gamma1;    //gamma is a built in function so it give error 
-//struct student alpha, beta, gamma1; // here we declare alpha,beta... as a global variable
+//or  struct student alpha, beta, gamma1; // here we declare alpha,beta... as a global variable
 void print()
 {
     printf("alpha marks is %d\n", alpha.marks);
