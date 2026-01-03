@@ -11,7 +11,7 @@ int main()
     //'a' means append mode mee jo text delta.txt mee likha hoga usho wo bina
     //erase kiye hue uske aage se continue kregal likhna
     ptr=fopen("delta.txt","a");
-    fputc('a',ptr);
+    // fputc('a',ptr);
     fputs("india",ptr);
     fclose(ptr);
     return 0;
