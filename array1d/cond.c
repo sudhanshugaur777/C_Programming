@@ -2,7 +2,6 @@
 int main()
 {
     int n;
-    
     printf("Enter how much marks you want to stor :");
     scanf("%d",&n);
     int a[n];
@@ -11,9 +10,8 @@ int main()
         printf("Enter the marks of %d student :" ,i+1);
         scanf("%d",&a[i]);
     }
-    
     printf("max no. :\n");
-    int max=a[0];;
+    int max=a[0];
     for (int  i = 1; i <n; i++)
     {
         if (a[i]>max) max=a[i];

@@ -12,15 +12,15 @@ int main()
         scanf(" %[^\n]",name[i]);// space before %[^\n]
     }
     //sorting  condition
-    char temp[n][20];
+    char temp[20];
     for (int i = 0; i < n-1; i++)
     {
-        for (int j = 0;j<=n-2-i; j++)
+        for (int j = 0;j<n-1-i; j++)
         {
             if ((strcmp(name[j],name[j+1]))>0){
-                strcpy(temp[j],name[j+1]);
+                strcpy(temp,name[j+1]);
                 strcpy(name[j+1],name[j]);
-                strcpy(name[j],temp[j]);
+                strcpy(name[j],temp);
 
             }
             

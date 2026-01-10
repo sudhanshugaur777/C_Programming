@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 struct maths {
     int num;
     int den;
 };
-
 // HCF function
 int hcf(int m, int n) {
     int temp;

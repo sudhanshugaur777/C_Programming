@@ -24,8 +24,8 @@ int main()
     printf("Enter rollno :");
     scanf("%d",&s1.rno);
     printf("Enter name:");
-    getchar();
-    scanf("%[^\n]",s1.name);
+    // getchar();
+    scanf(" %[^\n]",s1.name);
     printf("Enter fav_char :");
     scanf(" %c",&s1.fav_char);// ek space hona chahiye %c k pahle remember!!
     printf("The id is %d\n",s1.id);

@@ -1,5 +1,5 @@
 #include <stdio.h>
-void multiply(int m,int n,int p,int q,int a[m][n],int b[n][q],int c[p][q]){
+void multiply(int m,int n,int p,int q,int a[m][n],int b[n][q],int c[m][q]){
     if (n==p){                     //int a[][n],int b[][q],int c[][q]  
         for (int i = 0; i <m; i++) //int (*a)[n],int(*b)[q],int(*c)[q]    //both are corret form            
         {                                 // it is mendatory to write coloumn but 

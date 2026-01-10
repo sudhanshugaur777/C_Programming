@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main()
 {
@@ -8,10 +9,8 @@ int main()
 	for(int i=2;i*i<=n;i++){
 		if (n%i==0) {
 			isprime=1;
-			break;
-			
-		}
-			
+			break;	
+		}	
 	}
 	//return 0;
 	if (isprime==0) printf("The given number is a prime number\n");

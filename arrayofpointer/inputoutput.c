@@ -12,7 +12,7 @@ void main() {
 	// Read the input elements
 	for ( int i=0;i<m;i++) {
 		for ( int j=0;j<n;j++) {
-			scanf( "%d",p[i]+j);//*(p + i) + j) orr  &p[i][j]
+			scanf( "%d",p[i]+j);//*(p + i) + j orr  &p[i][j]
 		}
 	}
 	printf("The given matrix is\n");
